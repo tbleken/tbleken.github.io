@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="css/win32api.css">  
 # List of functions in alphabetical order
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
 ```txt  
