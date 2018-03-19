@@ -1,7 +1,3 @@
-<style> h2, h3 {
-    color: #cc6600
-}
-</style>
 
 # List of functions in alphabetical order
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
