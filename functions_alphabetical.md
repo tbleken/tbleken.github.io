@@ -1,5 +1,7 @@
-<link rel="stylesheet" type="text/css" href="css/win32api.css">  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> h2, h3 {
+    color: #cc6600
+}
+</style>
 
 # List of functions in alphabetical order
 [AVIFileExit](libraries/avifil32/AVIFileExit.md)  
@@ -462,7 +464,7 @@ This function gets information on the physical and virtual memory of the system.
 
 [CeMoveFile](libraries/rapi/CeMoveFile.md)  
 ```txt  
-This function renames an existing file or a directory — including all its children.  
+This function renames an existing file or a directory Â— including all its children.  
 ```  
 
 ***  
@@ -1558,7 +1560,7 @@ Disconnects the server end of a named pipe instance from a client process.
 
 [DllGetVersion](libraries/shell32/DllGetVersion.md)  
 ```txt  
-Implemented by many of the Microsoft® Windows® Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
+Implemented by many of the MicrosoftÂ® WindowsÂ® Shell dynamic-link libraries (DLLs) to allow applications to obtain DLL-specific version information.  
 ```  
 
 ***  
@@ -2364,7 +2366,7 @@ Creates a Bitmap object based on a Graphics object, a width, and a height.
 
 [GdipCreateBitmapFromHBITMAP](libraries/gdiplus/GdipCreateBitmapFromHBITMAP.md)  
 ```txt  
-Creates a Bitmap object based on a handle to a Windows Microsoft® Windows® Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
+Creates a Bitmap object based on a handle to a Windows MicrosoftÂ® WindowsÂ® Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.  
 ```  
 
 ***  
@@ -2415,7 +2417,7 @@ Returns handle to the Graphics object associated with the windows handle.
 
 [GdipCreateHBITMAPFromBitmap](libraries/gdiplus/GdipCreateHBITMAPFromBitmap.md)  
 ```txt  
-Creates a Microsoft® Windows® Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
+Creates a MicrosoftÂ® WindowsÂ® Graphics Device Interface (GDI) bitmap from this GDI+ Bitmap handle.
   
 ```  
 
@@ -2444,7 +2446,7 @@ Creates and initializes a Matrix object that represents the identity matrix.
 
 [GdipCreateMatrix2](libraries/gdiplus/GdipCreateMatrix2.md)  
 ```txt  
-Creates and initializes a a 3 ×3 matrix that represents an affine transformation.  
+Creates and initializes a a 3 Ã—3 matrix that represents an affine transformation.  
 ```  
 
 ***  
@@ -3020,14 +3022,14 @@ Updates this Graphics object"s world transformation matrix with the product of i
 
 [GdiplusShutdown](libraries/gdiplus/GdiplusShutdown.md)  
 ```txt  
-The GdiplusShutdown function cleans up resources used by Microsoft® Windows® GDI+.  
+The GdiplusShutdown function cleans up resources used by MicrosoftÂ® WindowsÂ® GDI+.  
 ```  
 
 ***  
 
 [GdiplusStartup](libraries/gdiplus/GdiplusStartup.md)  
 ```txt  
-The GdiplusStartup function initializes Microsoft® Windows® GDI+.  
+The GdiplusStartup function initializes MicrosoftÂ® WindowsÂ® GDI+.  
 ```  
 
 ***  
@@ -3630,7 +3632,7 @@ The GetInterfaceInfo function obtains a list of the network interface adapters o
 
 [GetIpAddrTable](libraries/iphlpapi/GetIpAddrTable.md)  
 ```txt  
-The GetIpAddrTable function retrieves the interface–to–IP address mapping table.  
+The GetIpAddrTable function retrieves the interfaceÂ–toÂ–IP address mapping table.  
 ```  
 
 ***  
@@ -3665,7 +3667,7 @@ The GetKeyNameText function retrieves a string that represents the name of a key
 
 [GetKeyState](libraries/user32/GetKeyState.md)  
 ```txt  
-The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, off—alternating each time the key is pressed).   
+The GetKeyState function retrieves the status of the specified virtual key. The status specifies whether the key is up, down, or toggled (on, offÂ—alternating each time the key is pressed).   
 ```  
 
 ***  
@@ -4518,7 +4520,7 @@ Retrieves information about a cache entry.
 
 [GetUserDefaultLCID](libraries/kernel32/GetUserDefaultLCID.md)  
 ```txt  
-Retrieves the user default–locale identifier.  
+Retrieves the user defaultÂ–locale identifier.  
 ```  
 
 ***  
@@ -5073,7 +5075,7 @@ This function retrieves the cookie for the specified URL.
 
 [InternetGetLastResponseInfo](libraries/wininet/InternetGetLastResponseInfo.md)  
 ```txt  
-Retrieves the last Microsoft® Win32® Internet function error description or server response on the thread calling this function.  
+Retrieves the last MicrosoftÂ® Win32Â® Internet function error description or server response on the thread calling this function.  
 ```  
 
 ***  
@@ -5087,7 +5089,7 @@ Prompts the user for permission to initiate connection to a URL.
 
 [InternetOpen](libraries/wininet/InternetOpen.md)  
 ```txt  
-Initializes an application"s use of the Microsoft® Win32® Internet functions  
+Initializes an application"s use of the MicrosoftÂ® Win32Â® Internet functions  
 ```  
 
 ***  
@@ -6790,7 +6792,7 @@ The ResetEvent function sets the specified event object to the nonsignaled state
 
 [RestartDialog](libraries/shell32/RestartDialog.md)  
 ```txt  
-Displays a dialog box that prompts the user to restart Microsoft® Windows®. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
+Displays a dialog box that prompts the user to restart MicrosoftÂ® WindowsÂ®. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.  
 ```  
 
 ***  
